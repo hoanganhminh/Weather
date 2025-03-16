@@ -13,7 +13,7 @@ const Header = () => {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link to={"/"}>
-          <img src="/logo.webp" alt="Weather Logo" className="h-14" />
+          <img src="./logo.webp" alt="Weather Logo" className="h-14" />
         </Link>
         <div>
           {/* search */}
