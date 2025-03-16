@@ -1,6 +1,5 @@
 import { GeocodingResponse, WeatherData } from "@/api/types";
 import { Card, CardContent } from "./ui/card";
-import { Arrow } from "@radix-ui/react-tooltip";
 import { ArrowDown, ArrowUp, Droplet, Wind } from "lucide-react";
 
 interface CurrentWeatherProps {
@@ -54,7 +53,7 @@ const CurrentWeather = ({ data, locationName }: CurrentWeatherProps) => {
                   </span>
                   <span className="flex items-center gap-1 text-red-500">
                     <ArrowUp className="h-3 w-3" />
-                    {formatTemp(temp_min)}
+                    {formatTemp(temp_max)}
                   </span>
                 </div>
               </div>
